@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main()
+{
+    int n = 777>>10;// 1100001001 = 0000000000
+    
+    
+    printf("%d\n", n);
+    return 0;
+}

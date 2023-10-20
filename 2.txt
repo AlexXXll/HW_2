@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main()
+{
+    double  a, b, c, d, e, f, h;
+    
+    printf("¬ведите через зап€тую значени€ a,b,c,d,e,f,h: \n");
+    scanf("%lf,%lf,%lf,%lf,%lf,%lf,%lf", &a, &b, &c, &d, &e, &f, &h);
+    
+    double r = a / (b * (c / (d * (e / (f * h)))));
+    printf("a / (b * (c / (d * (e / (f * h))))) = %f\n", r);
+    
+    return 0;
+}

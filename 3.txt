@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main()
+{
+    int n, m;
+    double x;
+    
+    printf("N:"); scanf("%i", &n);
+    printf("M:"); scanf("%i", &m);
+    
+    x = n/m;
+    printf("לכאהראÿ צטפנא צוכמי קאסעט = %i\n", (int)x%10);
+    return 0;
+}
